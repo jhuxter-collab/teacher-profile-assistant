@@ -82,7 +82,7 @@ REQUEST:
 
     with st.spinner("Generating..."):
         resp = client.responses.create(
-            model="gpt-5",
+            model="gpt-5.2",
             input=[
                 {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": prompt}
